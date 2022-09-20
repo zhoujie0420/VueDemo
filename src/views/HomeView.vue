@@ -1,20 +1,19 @@
 <template>
   <ContentBase>
     首页
-  </ContentBase>
+  </ContentBase> 
 </template>
 
 <script>
-import ContentBase from '../components/ContentBase';
+import ContentBase from  '../components/ContentBase';
+
 export default {
   name: 'HomeView',
-  components : {
+  components: {
     ContentBase,
   }
 }
 </script>
 
-
 <style scoped>
-
 </style>
